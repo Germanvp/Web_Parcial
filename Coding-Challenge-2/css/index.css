@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.heading {
+    display: none;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content {
+    display: none;
+}
+
+@media (min-width: 600px) and (max-width: 990px) {
+    .heading {
+        display: flex;
+    }
+
+    .content {
+        display: flex;
+    }
+}
+
+@media (min-width: 991px) {
+
+}
+
+div{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.nav-box {
+    width: 40%;
+}
+
+
